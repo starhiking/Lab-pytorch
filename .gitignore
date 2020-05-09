@@ -3,3 +3,5 @@ WFLW/
 COFW/
 300W/
 AFLW/
+__pycache__/
+*.pyc

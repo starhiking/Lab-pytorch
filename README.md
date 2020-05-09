@@ -7,7 +7,7 @@
 
 ### Get program
 
-```git clone git@github.com:FunkyKoki/Look_At_Boundary_PyTorch.git```
+```git clone git@172.10.60.219:starhiking/lab-pytorch.git```
 
 Program structure is as below:
 
@@ -88,13 +88,13 @@ WFLW training model can be download from https://pan.baidu.com/s/1tM3oJFUHmP4kJA
 
 When evaluating, you can config the param in utils/args.py or just set the param by terminal, for example, if you want to evaluate at ```Pose Testset``` normalized in the way of ```inter_ocular```:
 
-```python evaluate.py −−dataset WFLW −−split pose −−eval_epoch 900 −−norm_way inter_ocular```
+```python evaluate.py --dataset WFLW --split pose --eval_epoch 900 --norm_way inter_ocular```
 
 ### Model Training
 
 Config almost everything in utils/args or set them by terminal:
 
-```python train.py −−dataset WFLW −−split train −−loss_type L2```
+```python train.py --dataset WFLW --split train --loss_type L2```
 
 Tips: This program integrates the ```Wingloss``` and ```Pose-based Date Balancing```, if you want to use them, just choose it ^_^.
 
