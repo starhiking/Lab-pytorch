@@ -215,4 +215,5 @@ def evaluate_nparts(arg):
 
 
 if __name__ == '__main__':
-    evaluate_nparts(args)
+    # evaluate_nparts(args)
+    evaluate(args)

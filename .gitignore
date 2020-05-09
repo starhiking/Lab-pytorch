@@ -1,7 +1,7 @@
 .vscode/
-WFLW/
-COFW/
-300W/
-AFLW/
+native_datasets/WFLW/WFLW_images
+native_datasets/COFW/COFW_images
+native_datasets/300W/300W_images
+native_datasets/AFLW/AFLW_images
 __pycache__/
 *.pyc
