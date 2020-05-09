@@ -216,4 +216,7 @@ def evaluate_nparts(arg):
 
 if __name__ == '__main__':
     # evaluate_nparts(args)
+    import os 
+    os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu_id
+    args.gpu_id = '0'
     evaluate(args)

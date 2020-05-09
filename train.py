@@ -212,4 +212,6 @@ def train_with_gt_heatmap(arg):
 
 
 if __name__ == '__main__':
+    os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu_id
+    args.gpu_id = '0'
     train(args)
