@@ -9,7 +9,7 @@ parser.add_argument('--split',         default='test',             type=str)
 
 # dataloader
 parser.add_argument('--crop_size',     default=256,                 type=int)
-parser.add_argument('--batch_size',    default=32,                   type=int)
+parser.add_argument('--batch_size',    default=16,                   type=int)
 parser.add_argument('--workers',       default=8,                   type=int)
 parser.add_argument('--shuffle',       default=True,                type=bool)
 parser.add_argument('--PDB',           default=False,                type=bool)
@@ -20,7 +20,7 @@ parser.add_argument('--scale_ratio',   default=0.1,                 type=float)
 
 # devices
 parser.add_argument('--cuda',          default=True,                type=bool)
-parser.add_argument('--gpu_id',        default='0',                 type=str)
+parser.add_argument('--gpu_id',        default='4',                 type=str)
 
 # learning parameters
 parser.add_argument('--momentum',      default=0.9,                 type=float)
